@@ -53,7 +53,7 @@ function Slideshow() {
 
   return (
     <div className="w-full">
-      {/* Main Banner */}
+      {/* Main */}
       <div className="relative w-full h-64 sm:h-80 md:h-96 overflow-hidden">
         <button
           onClick={prevSlide}
@@ -87,7 +87,7 @@ function Slideshow() {
         </button>
       </div>
 
-      {/* Sub Banners */}
+      {/* Sub */}
       <div className="flex flex-col md:flex-row justify-between mt-4 gap-4">
         {subSlides.map((slide, index) => (
           <div key={index} className="w-full md:w-1/2 h-32 sm:h-40 md:h-48 relative">
